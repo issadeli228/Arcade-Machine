@@ -20,7 +20,7 @@ namespace Arcade_Machine
 
         private void StartLabel_Click(object sender, EventArgs e)
         {
-            //StartLabel.BackColor = Color.Black;
+            //StartButton.BackColor = Color.Black;
             CountdownLabel.ForeColor = Color.Gray;
             CountdownLabel3.ForeColor = Color.Gray;
             CountdownLabel2.Visible = false;

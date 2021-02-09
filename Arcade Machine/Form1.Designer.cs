@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button StartLabel;
+            System.Windows.Forms.Button StartButton;
             this.CountdownLabel = new System.Windows.Forms.Label();
             this.CountdownLabel3 = new System.Windows.Forms.Label();
             this.CountdownLabel2 = new System.Windows.Forms.Label();
             this.CountdownLabel1 = new System.Windows.Forms.Label();
             this.GoLabel = new System.Windows.Forms.Label();
-            StartLabel = new System.Windows.Forms.Button();
+            StartButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // StartLabel
+            // StartButton
             // 
-            StartLabel.BackColor = System.Drawing.Color.Gray;
-            StartLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            StartLabel.Location = new System.Drawing.Point(195, 254);
-            StartLabel.Name = "StartLabel";
-            StartLabel.Size = new System.Drawing.Size(355, 122);
-            StartLabel.TabIndex = 0;
-            StartLabel.Text = "Click To Start";
-            StartLabel.UseVisualStyleBackColor = false;
-            StartLabel.Click += new System.EventHandler(this.StartLabel_Click);
+            StartButton.BackColor = System.Drawing.Color.Gray;
+            StartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            StartButton.Location = new System.Drawing.Point(195, 254);
+            StartButton.Name = "StartButton";
+            StartButton.Size = new System.Drawing.Size(355, 122);
+            StartButton.TabIndex = 0;
+            StartButton.Text = "Click To Start";
+            StartButton.UseVisualStyleBackColor = false;
+            StartButton.Click += new System.EventHandler(this.StartLabel_Click);
             // 
             // CountdownLabel
             // 
@@ -111,13 +111,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(743, 442);
+            this.ClientSize = new System.Drawing.Size(757, 460);
             this.Controls.Add(this.GoLabel);
             this.Controls.Add(this.CountdownLabel1);
             this.Controls.Add(this.CountdownLabel2);
             this.Controls.Add(this.CountdownLabel3);
             this.Controls.Add(this.CountdownLabel);
-            this.Controls.Add(StartLabel);
+            this.Controls.Add(StartButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
